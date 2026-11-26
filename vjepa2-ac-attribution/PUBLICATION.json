@@ -2,8 +2,9 @@
   "status": "ready",
   "cases": 11,
   "internal_path_scan_passed": true,
+  "language": "en",
   "checked_local_links": 156,
   "files": 281,
-  "total_bytes": 122087805,
+  "total_bytes": 119734278,
   "maximum_file_bytes": 9644894
 }

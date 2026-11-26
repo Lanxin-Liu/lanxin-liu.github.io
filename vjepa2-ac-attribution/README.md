@@ -1,16 +1,16 @@
-# 归因图、输入动作与原视频
+# Attribution maps, input actions, and source videos
 
-打开 `index.html` 浏览全部案例，或查看 `index.csv`。
+Open `index.html` to browse the examples, or read `index.csv`.
 
-01–10 对应之前导出的10组片段；11 是报告中的 main_0000。
+Cases 01–10 are the ten selected clips. Case 11 is main_0000 from the report.
 
-每个目录：`current_frame.png` / `context_overview.png` / `frames/*_update.png` / `frames/*_action.png` 都标明正在解释的当前动作和完整源视频路径。`original_video.mp4` 是完整原视频的副本；`source_clip.mp4/gif` 是输入四帧及真实后续；`attribution_clip.mp4/gif` 是标明同一动作的归因动画。
+In each folder, `current_frame.png`, `context_overview.png`, `frames/*_update.png`, and `frames/*_action.png` label the current input action and source video. `original_video.mp4` is the full source video. `source_clip.mp4/gif` contains four observed inputs and one observed future. `attribution_clip.mp4/gif` shows attribution for the same final prediction, with the input action labeled.
 
-`ACTION_AND_VIDEO.md` 是人可读说明，`metadata.json` 保存完整精度动作与源文件信息，`actions.csv` 保存四步输入动作，`reader_maps.npz` 保存24层的原始正向图像归因分数。
+`ACTION_AND_VIDEO.md` provides readable notes. `metadata.json` stores exact action values and source information. `actions.csv` stores all four input actions. `reader_maps.npz` stores the original positive image attribution scores for all 24 blocks.
 
-动作是给 predictor 的条件输入，不是 predictor 生成的动作。当前动作解释的是最后一张输入帧到下一张采样帧的变化；四张图只是在显示各输入帧对这同一次预测的归因。平移 mm 和旋转 deg 是便于阅读的换算值；完整原始 m/rad 数值保存在 JSON/CSV。
+The action is an input to the predictor, not its output. It applies from the current frame to the next sampled frame. The four displayed maps explain the same final prediction. The displayed mm and degree values are unit conversions. Original m/rad values are retained in JSON/CSV.
 
-这是已有实验结果的 CPU 可视化导出，没有重新运行模型或改变原始实验。
+These figures were exported from completed experiments on CPU. The model was not rerun and the experimental results were not changed.
 
 
 ## Sources
