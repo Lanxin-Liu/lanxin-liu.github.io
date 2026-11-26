@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Two DROID manipulation clips with automatically tracked object masks, bounding boxes, and centroids.">
+  <title>Contact-anchored object annotation on DROID</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap"><a href="../">Lanxin Liu</a><span>Research demos</span></div>
+  </header>
+  <main class="wrap">
+    <header class="intro">
+      <p class="eyebrow">DROID · Object tracking</p>
+      <h1>Contact-anchored object annotation</h1>
+      <p class="lede">How do we tell which object the robot actually picked up? We use recorded gripper events to guide SAM 2, then check how each candidate moves across the grasp.</p>
+    </header>
+
+    <section aria-labelledby="examples">
+      <div class="section-heading">
+        <h2 id="examples">Annotated examples</h2>
+        <p class="legend"><span aria-hidden="true"></span> Target mask and bounding box</p>
+      </div>
+      <div class="examples">
+        <article class="example" id="ep-0017">
+          <video controls playsinline preload="metadata" width="640" height="360" poster="ep-0017/poster.jpg" aria-label="Target annotation video for episode 0017">
+            <source src="ep-0017/preview.mp4" type="video/mp4">
+            <a href="ep-0017/preview.mp4">Play the annotated video for episode 0017</a>
+          </video>
+          <div class="example-body">
+            <p class="meta">Episode 0017 · Left view · 136 frames</p>
+            <h3>Tracking a mug through a grasp</h3>
+            <p>The pipeline selected a pre-grasp mask at frame 73. The mug stayed still as the gripper approached, then passed three checks for motion with the gripper.</p>
+            <dl>
+              <div><dt>Gripper closes</dt><dd>Frame 86</dd></div>
+              <div><dt>Gripper opens</dt><dd>Frame 132</dd></div>
+            </dl>
+            <a class="download" href="ep-0017/annotations.zip" download>Download frame annotations <span>ZIP</span></a>
+          </div>
+        </article>
+        <article class="example" id="ep-1000">
+          <video controls playsinline preload="metadata" width="640" height="360" poster="ep-1000/poster.jpg" aria-label="Target annotation video for episode 1000">
+            <source src="ep-1000/preview.mp4" type="video/mp4">
+            <a href="ep-1000/preview.mp4">Play the annotated video for episode 1000</a>
+          </video>
+          <div class="example-body">
+            <p class="meta">Episode 1000 · Left view · 100 frames</p>
+            <h3>Recovering a small target with a crop</h3>
+            <p>A crop around the estimated contact region yielded the target mask at frame 41. The target's identity, continuity, and visible boundary were reviewed, and the batch reused those masks.</p>
+            <dl>
+              <div><dt>Gripper closes</dt><dd>Frame 50</dd></div>
+              <div><dt>Gripper opens</dt><dd>Frame 92</dd></div>
+            </dl>
+            <a class="download" href="ep-1000/annotations.zip" download>Download frame annotations <span>ZIP</span></a>
+          </div>
+        </article>
+      </div>
+      <p class="note">Each download contains target masks, bounding boxes, centroids, source frame numbers, and capture times. The examples show predictions within grasp windows.</p>
+    </section>
+
+    <section class="method" aria-labelledby="method">
+      <h2 id="method">How the annotation works</h2>
+      <ol>
+        <li><h3>Find the grasp</h3><p>Align recorded gripper closure and release with the camera capture times. Prepare an event window for each grasp.</p></li>
+        <li><h3>Propose nearby objects</h3><p>Estimate the contact region from the visible robot and prompt SAM 2 with image points. Search a magnified crop if the first pass finds no candidate that passes validation.</p></li>
+        <li><h3>Check the motion</h3><p>Compare candidate motion with the gripper and reject stationary background and moving shadows. Check that the target and robot are separate before contact or after release.</p></li>
+        <li><h3>Track and export</h3><p>Propagate the chosen mask forward and backward through the event window. Record missing masks and flag abrupt changes in area or position.</p></li>
+      </ol>
+    </section>
+
+    <footer>
+      <p>Source footage from <a href="https://droid-dataset.github.io/">DROID</a> by <a href="https://www.roboticsproceedings.org/rss20/p120.html">Khazatsky et al., RSS 2024</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The clips were resized and overlaid with predicted target masks, boxes, and frame labels.</p>
+    </footer>
+  </main>
+</body>
+</html>
