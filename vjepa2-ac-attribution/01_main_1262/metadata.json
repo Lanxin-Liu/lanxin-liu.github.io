@@ -1,0 +1,175 @@
+{
+  "case": "01_main_1262",
+  "pair": {
+    "pair_id": "main_1262",
+    "episode": "REAL+4f8ca688+2023-07-11-12h-48m-53s",
+    "step": "45",
+    "context": "4",
+    "stratum": "free_motion_proxy",
+    "camera": "23960472",
+    "scene": "scene_component_87a513596123bf603797",
+    "split": "main",
+    "action": "[-0.01468425989151001, 0.024786178022623062, 0.011428773403167725, 0.06939083337783813, 0.0486580990254879, 0.06662040203809738, 0.0]",
+    "reference": "[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]"
+  },
+  "action_role": "recorded pose-difference action supplied to predictor; not model-generated action",
+  "input_action_raw": [
+    -0.01468425989151001,
+    0.024786178022623062,
+    0.011428773403167725,
+    0.06939083337783813,
+    0.0486580990254879,
+    0.06662040203809738,
+    0.0
+  ],
+  "input_action_components": [
+    "dx_m",
+    "dy_m",
+    "dz_m",
+    "relative_rx_rad",
+    "relative_ry_rad",
+    "relative_rz_rad",
+    "delta_gripper"
+  ],
+  "translation_mm": [
+    -14.68425989151001,
+    24.786178022623062,
+    11.428773403167725
+  ],
+  "relative_rotation_xyz_deg": [
+    3.975801889445647,
+    2.7879037132900804,
+    3.817067866247728
+  ],
+  "action_reference": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "context_action_sequence": [
+    {
+      "context_position": 0,
+      "current_explained_action": false,
+      "source_frame": 152,
+      "next_sampled_frame": 156,
+      "mp4_time_s": 2.5333333015441895,
+      "next_mp4_time_s": 2.5999999046325684,
+      "physical_dt_s": 0.28299999237060547,
+      "gripper_before": 0.9295154213905334,
+      "gripper_after": 0.9295154213905334,
+      "dx_m": -0.013372838497161865,
+      "dy_m": 0.019222095608711243,
+      "dz_m": 0.06598734855651855,
+      "rx_rad": 0.08115919679403305,
+      "ry_rad": -0.019213449209928513,
+      "rz_rad": 0.011340184137225151,
+      "delta_gripper": 0.0
+    },
+    {
+      "context_position": 1,
+      "current_explained_action": false,
+      "source_frame": 156,
+      "next_sampled_frame": 159,
+      "mp4_time_s": 2.5999999046325684,
+      "next_mp4_time_s": 2.6500000953674316,
+      "physical_dt_s": 0.21700000762939453,
+      "gripper_before": 0.9295154213905334,
+      "gripper_after": 0.9295154213905334,
+      "dx_m": -0.01134943962097168,
+      "dy_m": 0.009569939225912094,
+      "dz_m": 0.05147412419319153,
+      "rx_rad": 0.03956262022256851,
+      "ry_rad": -0.04045237600803375,
+      "rz_rad": 0.01229467336088419,
+      "delta_gripper": 0.0
+    },
+    {
+      "context_position": 2,
+      "current_explained_action": false,
+      "source_frame": 159,
+      "next_sampled_frame": 163,
+      "mp4_time_s": 2.6500000953674316,
+      "next_mp4_time_s": 2.7166666984558105,
+      "physical_dt_s": 0.3000001907348633,
+      "gripper_before": 0.9295154213905334,
+      "gripper_after": 0.9295154213905334,
+      "dx_m": -0.01994723081588745,
+      "dy_m": 0.018236547708511353,
+      "dz_m": 0.04334583878517151,
+      "rx_rad": 0.06615056842565536,
+      "ry_rad": 0.008039288222789764,
+      "rz_rad": 0.04005744680762291,
+      "delta_gripper": 0.0
+    },
+    {
+      "context_position": 3,
+      "current_explained_action": true,
+      "source_frame": 163,
+      "next_sampled_frame": 166,
+      "mp4_time_s": 2.7166666984558105,
+      "next_mp4_time_s": 2.7666666507720947,
+      "physical_dt_s": 0.19999980926513672,
+      "gripper_before": 0.9295154213905334,
+      "gripper_after": 0.9295154213905334,
+      "dx_m": -0.01468425989151001,
+      "dy_m": 0.024786178022623062,
+      "dz_m": 0.011428773403167725,
+      "rx_rad": 0.06939083337783813,
+      "ry_rad": 0.0486580990254879,
+      "rz_rad": 0.06662040203809738,
+      "delta_gripper": 0.0
+    }
+  ],
+  "gripper_before": 0.9295154213905334,
+  "gripper_after": 0.9295154213905334,
+  "source_video": "23960472.mp4",
+  "local_original_video": "original_video.mp4",
+  "source_video_sha256": "fbfdd3715bfe9b72cd2d4839319c75101d190fc180212b62953b8ebc11c57432",
+  "original_video_frames": 259,
+  "original_video_container_fps": 60.0,
+  "source_frame_indices": [
+    152,
+    156,
+    159,
+    163,
+    166
+  ],
+  "mp4_frame_timestamps_s": [
+    [
+      2.5333333015441895,
+      2.549999952316284
+    ],
+    [
+      2.5999999046325684,
+      2.616666555404663
+    ],
+    [
+      2.6500000953674316,
+      2.6666667461395264
+    ],
+    [
+      2.7166666984558105,
+      2.7333333492279053
+    ],
+    [
+      2.7666666507720947,
+      2.7833333015441895
+    ]
+  ],
+  "physical_step_s": 0.19999980926513672,
+  "source_result_json": "main_1262.json",
+  "source_result_npz": "main_1262.npz",
+  "source_result_sha256": "e94bf8f3ba93e99363a3d9c1aaf3a825d7a60287b87ad6c041ddbf4bc2cb6a0d",
+  "source_result_npz_sha256": "176efbfdfe0a85a6ae6f888ca66387b18c5c84646c66216dd3555c2d0a6a168c",
+  "displayed_block": 23,
+  "positive_only": true,
+  "frame_percentage_labels": false,
+  "map_meaning": "each context-frame map explains the same final next-frame prediction",
+  "action_verification": "current action matches official poses_to_diff(current_state, next_state) within 2e-6",
+  "rotation_definition": "R_delta = R_next @ R_current.T; xyz Euler radians, not componentwise Euler subtraction",
+  "container_time_note": "MP4 playback time and physical acquisition time are stored separately; sampling clip is played at 4 fps"
+}

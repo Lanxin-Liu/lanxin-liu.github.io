@@ -1,0 +1,443 @@
+{
+  "status": "complete",
+  "cases": 11,
+  "original_selected_cases": 10,
+  "report_example_included": true,
+  "annotated_attribution_pngs": 110,
+  "original_videos_verified": 11,
+  "action_matches_verified": 11,
+  "case_audits": [
+    {
+      "case": "01_main_1262",
+      "pngs": 15,
+      "original_video_copy_verified": true,
+      "action_verified": true,
+      "raw_map_finite": true,
+      "video_audits": [
+        {
+          "file": "source_clip.mp4",
+          "frames": 5,
+          "fps": 4.0,
+          "size": [
+            1280,
+            720
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "source_clip.gif",
+          "encoded_frames": 5,
+          "duration_ms": 1250
+        },
+        {
+          "file": "attribution_clip.mp4",
+          "frames": 4,
+          "fps": 4.0,
+          "size": [
+            800,
+            566
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "attribution_clip.gif",
+          "encoded_frames": 4,
+          "duration_ms": 1000
+        }
+      ]
+    },
+    {
+      "case": "02_main_1180",
+      "pngs": 15,
+      "original_video_copy_verified": true,
+      "action_verified": true,
+      "raw_map_finite": true,
+      "video_audits": [
+        {
+          "file": "source_clip.mp4",
+          "frames": 5,
+          "fps": 4.0,
+          "size": [
+            1280,
+            720
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "source_clip.gif",
+          "encoded_frames": 5,
+          "duration_ms": 1250
+        },
+        {
+          "file": "attribution_clip.mp4",
+          "frames": 4,
+          "fps": 4.0,
+          "size": [
+            800,
+            566
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "attribution_clip.gif",
+          "encoded_frames": 4,
+          "duration_ms": 1000
+        }
+      ]
+    },
+    {
+      "case": "03_main_0862",
+      "pngs": 15,
+      "original_video_copy_verified": true,
+      "action_verified": true,
+      "raw_map_finite": true,
+      "video_audits": [
+        {
+          "file": "source_clip.mp4",
+          "frames": 5,
+          "fps": 4.0,
+          "size": [
+            1280,
+            720
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "source_clip.gif",
+          "encoded_frames": 5,
+          "duration_ms": 1250
+        },
+        {
+          "file": "attribution_clip.mp4",
+          "frames": 4,
+          "fps": 4.0,
+          "size": [
+            800,
+            566
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "attribution_clip.gif",
+          "encoded_frames": 4,
+          "duration_ms": 1000
+        }
+      ]
+    },
+    {
+      "case": "04_main_0362",
+      "pngs": 15,
+      "original_video_copy_verified": true,
+      "action_verified": true,
+      "raw_map_finite": true,
+      "video_audits": [
+        {
+          "file": "source_clip.mp4",
+          "frames": 5,
+          "fps": 4.0,
+          "size": [
+            1280,
+            720
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "source_clip.gif",
+          "encoded_frames": 5,
+          "duration_ms": 1250
+        },
+        {
+          "file": "attribution_clip.mp4",
+          "frames": 4,
+          "fps": 4.0,
+          "size": [
+            800,
+            566
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "attribution_clip.gif",
+          "encoded_frames": 4,
+          "duration_ms": 1000
+        }
+      ]
+    },
+    {
+      "case": "05_main_0248",
+      "pngs": 15,
+      "original_video_copy_verified": true,
+      "action_verified": true,
+      "raw_map_finite": true,
+      "video_audits": [
+        {
+          "file": "source_clip.mp4",
+          "frames": 5,
+          "fps": 4.0,
+          "size": [
+            1280,
+            720
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "source_clip.gif",
+          "encoded_frames": 5,
+          "duration_ms": 1250
+        },
+        {
+          "file": "attribution_clip.mp4",
+          "frames": 4,
+          "fps": 4.0,
+          "size": [
+            800,
+            566
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "attribution_clip.gif",
+          "encoded_frames": 4,
+          "duration_ms": 1000
+        }
+      ]
+    },
+    {
+      "case": "06_main_1257",
+      "pngs": 15,
+      "original_video_copy_verified": true,
+      "action_verified": true,
+      "raw_map_finite": true,
+      "video_audits": [
+        {
+          "file": "source_clip.mp4",
+          "frames": 5,
+          "fps": 4.0,
+          "size": [
+            1280,
+            720
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "source_clip.gif",
+          "encoded_frames": 5,
+          "duration_ms": 1250
+        },
+        {
+          "file": "attribution_clip.mp4",
+          "frames": 4,
+          "fps": 4.0,
+          "size": [
+            800,
+            566
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "attribution_clip.gif",
+          "encoded_frames": 4,
+          "duration_ms": 1000
+        }
+      ]
+    },
+    {
+      "case": "07_main_0867",
+      "pngs": 15,
+      "original_video_copy_verified": true,
+      "action_verified": true,
+      "raw_map_finite": true,
+      "video_audits": [
+        {
+          "file": "source_clip.mp4",
+          "frames": 5,
+          "fps": 4.0,
+          "size": [
+            1280,
+            720
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "source_clip.gif",
+          "encoded_frames": 5,
+          "duration_ms": 1250
+        },
+        {
+          "file": "attribution_clip.mp4",
+          "frames": 4,
+          "fps": 4.0,
+          "size": [
+            800,
+            566
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "attribution_clip.gif",
+          "encoded_frames": 4,
+          "duration_ms": 1000
+        }
+      ]
+    },
+    {
+      "case": "08_main_0906",
+      "pngs": 15,
+      "original_video_copy_verified": true,
+      "action_verified": true,
+      "raw_map_finite": true,
+      "video_audits": [
+        {
+          "file": "source_clip.mp4",
+          "frames": 5,
+          "fps": 4.0,
+          "size": [
+            1280,
+            720
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "source_clip.gif",
+          "encoded_frames": 5,
+          "duration_ms": 1250
+        },
+        {
+          "file": "attribution_clip.mp4",
+          "frames": 4,
+          "fps": 4.0,
+          "size": [
+            800,
+            566
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "attribution_clip.gif",
+          "encoded_frames": 4,
+          "duration_ms": 1000
+        }
+      ]
+    },
+    {
+      "case": "09_main_1420",
+      "pngs": 15,
+      "original_video_copy_verified": true,
+      "action_verified": true,
+      "raw_map_finite": true,
+      "video_audits": [
+        {
+          "file": "source_clip.mp4",
+          "frames": 5,
+          "fps": 4.0,
+          "size": [
+            1280,
+            720
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "source_clip.gif",
+          "encoded_frames": 5,
+          "duration_ms": 1250
+        },
+        {
+          "file": "attribution_clip.mp4",
+          "frames": 4,
+          "fps": 4.0,
+          "size": [
+            800,
+            566
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "attribution_clip.gif",
+          "encoded_frames": 4,
+          "duration_ms": 1000
+        }
+      ]
+    },
+    {
+      "case": "10_main_0757",
+      "pngs": 15,
+      "original_video_copy_verified": true,
+      "action_verified": true,
+      "raw_map_finite": true,
+      "video_audits": [
+        {
+          "file": "source_clip.mp4",
+          "frames": 5,
+          "fps": 4.0,
+          "size": [
+            1280,
+            720
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "source_clip.gif",
+          "encoded_frames": 5,
+          "duration_ms": 1250
+        },
+        {
+          "file": "attribution_clip.mp4",
+          "frames": 4,
+          "fps": 4.0,
+          "size": [
+            800,
+            566
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "attribution_clip.gif",
+          "encoded_frames": 4,
+          "duration_ms": 1000
+        }
+      ]
+    },
+    {
+      "case": "11_report_main_0000",
+      "pngs": 17,
+      "original_video_copy_verified": true,
+      "action_verified": true,
+      "raw_map_finite": true,
+      "video_audits": [
+        {
+          "file": "source_clip.mp4",
+          "frames": 5,
+          "fps": 4.0,
+          "size": [
+            1280,
+            720
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "source_clip.gif",
+          "encoded_frames": 5,
+          "duration_ms": 1250
+        },
+        {
+          "file": "attribution_clip.mp4",
+          "frames": 4,
+          "fps": 4.0,
+          "size": [
+            800,
+            566
+          ],
+          "codec": "mp4v"
+        },
+        {
+          "file": "attribution_clip.gif",
+          "encoded_frames": 4,
+          "duration_ms": 1000
+        }
+      ]
+    }
+  ],
+  "source_gallery": "completed AC experiment export",
+  "script_sha256": "20da4284d8a9196be1ec7f6195704f11b38b9265bac76beecd736be2f32f6f4f",
+  "model_rerun": false
+}
